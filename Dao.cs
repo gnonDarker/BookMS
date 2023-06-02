@@ -8,7 +8,7 @@ namespace BookMS
         public SqlConnection connect()
         {
             //连接数据库
-            string str = @"Data Source=GNON-DESKTOP;Initial Catalog=BookDB2;Integrated Security=True";
+            string str = @"Data Source=DESKTOP-FASERF9;Initial Catalog=BookDB;Integrated Security=True";
             //创建数据库连接对象
             sc = new SqlConnection(str);
             //打开数据库

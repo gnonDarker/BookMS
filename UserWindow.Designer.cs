@@ -62,6 +62,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CancelResButton = new System.Windows.Forms.Button();
+            this.MessageButton = new System.Windows.Forms.Button();
             this.FindPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BorrowDataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReservationGrid)).BeginInit();
@@ -274,7 +275,7 @@
             this.Column10.HeaderText = "逾期时长";
             this.Column10.Name = "Column10";
             // 
-            // AppointmentGrid
+            // ReservationGrid
             // 
             this.ReservationGrid.AllowUserToAddRows = false;
             this.ReservationGrid.AllowUserToDeleteRows = false;
@@ -286,7 +287,7 @@
             this.Column11});
             this.ReservationGrid.Location = new System.Drawing.Point(0, 0);
             this.ReservationGrid.MultiSelect = false;
-            this.ReservationGrid.Name = "AppointmentGrid";
+            this.ReservationGrid.Name = "ReservationGrid";
             this.ReservationGrid.RowHeadersVisible = false;
             this.ReservationGrid.RowTemplate.Height = 23;
             this.ReservationGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -365,11 +366,22 @@
             this.CancelResButton.UseVisualStyleBackColor = true;
             this.CancelResButton.Click += new System.EventHandler(this.CancelResButton_Click);
             // 
+            // MessageButton
+            // 
+            this.MessageButton.Location = new System.Drawing.Point(765, 0);
+            this.MessageButton.Name = "MessageButton";
+            this.MessageButton.Size = new System.Drawing.Size(34, 45);
+            this.MessageButton.TabIndex = 24;
+            this.MessageButton.Text = "留言";
+            this.MessageButton.UseVisualStyleBackColor = true;
+            this.MessageButton.Click += new System.EventHandler(this.MessageButton_Click);
+            // 
             // UserWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.MessageButton);
             this.Controls.Add(this.CancelResButton);
             this.Controls.Add(this.bookDataGrid);
             this.Controls.Add(this.ReservationGrid);
@@ -429,5 +441,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button CancelResButton;
+        private System.Windows.Forms.Button MessageButton;
     }
 }

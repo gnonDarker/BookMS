@@ -49,9 +49,12 @@ namespace BookMS
             if (dc.Read())
             {
                 Data.UID = dc["ID"].ToString();
+
                 if (radioButtonUser.Checked)
                 {
                     UserWindow user = new UserWindow();
+                    Data.UName = dc["Name"].ToString();
+                    Data.UPhone = dc["Phone"].ToString();
                     this.Hide();
                     user.ShowDialog();
                 }

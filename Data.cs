@@ -8,6 +8,6 @@ namespace BookMS
 {
     internal class Data
     {
-        public static string UID = "", UName = "";
+        public static string UID = "", UName = "",UPhone="";
     }
 }

@@ -303,7 +303,7 @@ namespace BookMS
             }
             catch
             {
-                MessageBox.Show("请先从借书列表中选中想要借阅的书籍！");
+                MessageBox.Show("请先从借书列表中选中想要归还的书籍！");
                 return;
             }
             DialogResult dr = MessageBox.Show("确认归还书籍？", "信息提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
@@ -359,6 +359,12 @@ namespace BookMS
                 }
                 dao.DaoClose();
             }
+        }
+
+        private void MessageButton_Click(object sender, EventArgs e)
+        {
+            UserMsg t = new UserMsg();
+            t.ShowDialog();
         }
     }
 }

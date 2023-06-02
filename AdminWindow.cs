@@ -243,5 +243,11 @@ namespace BookMS
         {
 
         }
+
+        private void MessageButton_Click(object sender, EventArgs e)
+        {
+            AdminMsg t = new AdminMsg();
+            t.ShowDialog();
+        }
     }
 }

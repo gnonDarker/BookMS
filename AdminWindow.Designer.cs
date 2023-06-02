@@ -73,6 +73,7 @@
             this.findTextName = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.findTextISBN = new System.Windows.Forms.TextBox();
+            this.MessageButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bookDataGrid)).BeginInit();
             this.AddBookPanel.SuspendLayout();
             this.ModifyPanel.SuspendLayout();
@@ -93,14 +94,13 @@
             this.Column5});
             this.bookDataGrid.Dock = System.Windows.Forms.DockStyle.Left;
             this.bookDataGrid.Location = new System.Drawing.Point(0, 0);
-            this.bookDataGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bookDataGrid.MultiSelect = false;
             this.bookDataGrid.Name = "bookDataGrid";
             this.bookDataGrid.RowHeadersVisible = false;
             this.bookDataGrid.RowHeadersWidth = 51;
             this.bookDataGrid.RowTemplate.Height = 23;
             this.bookDataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bookDataGrid.Size = new System.Drawing.Size(537, 562);
+            this.bookDataGrid.Size = new System.Drawing.Size(403, 450);
             this.bookDataGrid.TabIndex = 1;
             this.bookDataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bookDataPanel_CellContentClick);
             // 
@@ -136,10 +136,9 @@
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(599, 15);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddButton.Location = new System.Drawing.Point(449, 12);
             this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(165, 56);
+            this.AddButton.Size = new System.Drawing.Size(124, 45);
             this.AddButton.TabIndex = 2;
             this.AddButton.Text = "添加图书";
             this.AddButton.UseVisualStyleBackColor = true;
@@ -147,10 +146,9 @@
             // 
             // ModifyButton
             // 
-            this.ModifyButton.Location = new System.Drawing.Point(821, 15);
-            this.ModifyButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModifyButton.Location = new System.Drawing.Point(616, 12);
             this.ModifyButton.Name = "ModifyButton";
-            this.ModifyButton.Size = new System.Drawing.Size(165, 56);
+            this.ModifyButton.Size = new System.Drawing.Size(124, 45);
             this.ModifyButton.TabIndex = 3;
             this.ModifyButton.Text = "修改图书";
             this.ModifyButton.UseVisualStyleBackColor = true;
@@ -158,10 +156,9 @@
             // 
             // FindButton
             // 
-            this.FindButton.Location = new System.Drawing.Point(599, 79);
-            this.FindButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FindButton.Location = new System.Drawing.Point(449, 63);
             this.FindButton.Name = "FindButton";
-            this.FindButton.Size = new System.Drawing.Size(165, 56);
+            this.FindButton.Size = new System.Drawing.Size(124, 45);
             this.FindButton.TabIndex = 4;
             this.FindButton.Text = "查询图书";
             this.FindButton.UseVisualStyleBackColor = true;
@@ -169,10 +166,9 @@
             // 
             // DeleteButton
             // 
-            this.DeleteButton.Location = new System.Drawing.Point(821, 79);
-            this.DeleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteButton.Location = new System.Drawing.Point(616, 63);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(165, 56);
+            this.DeleteButton.Size = new System.Drawing.Size(124, 45);
             this.DeleteButton.TabIndex = 5;
             this.DeleteButton.Text = "删除图书";
             this.DeleteButton.UseVisualStyleBackColor = true;
@@ -191,36 +187,32 @@
             this.AddBookPanel.Controls.Add(this.nameTextBox);
             this.AddBookPanel.Controls.Add(this.label1);
             this.AddBookPanel.Controls.Add(this.ISBNtextBox);
-            this.AddBookPanel.Location = new System.Drawing.Point(599, 229);
-            this.AddBookPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddBookPanel.Location = new System.Drawing.Point(449, 183);
             this.AddBookPanel.Name = "AddBookPanel";
-            this.AddBookPanel.Size = new System.Drawing.Size(388, 319);
+            this.AddBookPanel.Size = new System.Drawing.Size(291, 255);
             this.AddBookPanel.TabIndex = 6;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(24, 236);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(18, 189);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(67, 15);
+            this.label13.Size = new System.Drawing.Size(53, 12);
             this.label13.TabIndex = 12;
             this.label13.Text = "库存数量";
             // 
             // bookNumTextBox
             // 
-            this.bookNumTextBox.Location = new System.Drawing.Point(116, 232);
-            this.bookNumTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bookNumTextBox.Location = new System.Drawing.Point(87, 186);
             this.bookNumTextBox.Name = "bookNumTextBox";
-            this.bookNumTextBox.Size = new System.Drawing.Size(191, 25);
+            this.bookNumTextBox.Size = new System.Drawing.Size(144, 21);
             this.bookNumTextBox.TabIndex = 11;
             // 
             // addBtn
             // 
-            this.addBtn.Location = new System.Drawing.Point(116, 266);
-            this.addBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addBtn.Location = new System.Drawing.Point(87, 213);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(137, 45);
+            this.addBtn.Size = new System.Drawing.Size(103, 36);
             this.addBtn.TabIndex = 8;
             this.addBtn.Text = "添加";
             this.addBtn.UseVisualStyleBackColor = true;
@@ -229,81 +221,72 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 190);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(18, 152);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 15);
+            this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 7;
             this.label4.Text = "出版日期";
             // 
             // dateTextBox
             // 
-            this.dateTextBox.Location = new System.Drawing.Point(116, 186);
-            this.dateTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTextBox.Location = new System.Drawing.Point(87, 149);
             this.dateTextBox.Name = "dateTextBox";
-            this.dateTextBox.Size = new System.Drawing.Size(191, 25);
+            this.dateTextBox.Size = new System.Drawing.Size(144, 21);
             this.dateTextBox.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(24, 134);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(18, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 15);
+            this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 5;
             this.label3.Text = "书籍作者";
             // 
             // authorTextBox
             // 
-            this.authorTextBox.Location = new System.Drawing.Point(116, 130);
-            this.authorTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.authorTextBox.Location = new System.Drawing.Point(87, 104);
             this.authorTextBox.Name = "authorTextBox";
-            this.authorTextBox.Size = new System.Drawing.Size(191, 25);
+            this.authorTextBox.Size = new System.Drawing.Size(144, 21);
             this.authorTextBox.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 80);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(18, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 15);
+            this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 3;
             this.label2.Text = "书籍名称";
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(116, 76);
-            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nameTextBox.Location = new System.Drawing.Point(87, 61);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(191, 25);
+            this.nameTextBox.Size = new System.Drawing.Size(144, 21);
             this.nameTextBox.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 29);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(18, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 15);
+            this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 1;
             this.label1.Text = "书籍ISBN";
             // 
             // ISBNtextBox
             // 
-            this.ISBNtextBox.Location = new System.Drawing.Point(116, 25);
-            this.ISBNtextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ISBNtextBox.Location = new System.Drawing.Point(87, 20);
             this.ISBNtextBox.Name = "ISBNtextBox";
-            this.ISBNtextBox.Size = new System.Drawing.Size(191, 25);
+            this.ISBNtextBox.Size = new System.Drawing.Size(144, 21);
             this.ISBNtextBox.TabIndex = 0;
             // 
             // ShowButton
             // 
-            this.ShowButton.Location = new System.Drawing.Point(821, 142);
-            this.ShowButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowButton.Location = new System.Drawing.Point(616, 114);
             this.ShowButton.Name = "ShowButton";
-            this.ShowButton.Size = new System.Drawing.Size(165, 56);
+            this.ShowButton.Size = new System.Drawing.Size(124, 45);
             this.ShowButton.TabIndex = 7;
             this.ShowButton.Text = "显示所有图书";
             this.ShowButton.UseVisualStyleBackColor = true;
@@ -322,37 +305,33 @@
             this.ModifyPanel.Controls.Add(this.modifyTextName);
             this.ModifyPanel.Controls.Add(this.label8);
             this.ModifyPanel.Controls.Add(this.modifyTextISBN);
-            this.ModifyPanel.Location = new System.Drawing.Point(595, 221);
-            this.ModifyPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModifyPanel.Location = new System.Drawing.Point(446, 177);
             this.ModifyPanel.Name = "ModifyPanel";
-            this.ModifyPanel.Size = new System.Drawing.Size(388, 319);
+            this.ModifyPanel.Size = new System.Drawing.Size(291, 255);
             this.ModifyPanel.TabIndex = 9;
             this.ModifyPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ModifyPanel_Paint);
             // 
             // bookNum
             // 
             this.bookNum.AutoSize = true;
-            this.bookNum.Location = new System.Drawing.Point(24, 244);
-            this.bookNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bookNum.Location = new System.Drawing.Point(18, 195);
             this.bookNum.Name = "bookNum";
-            this.bookNum.Size = new System.Drawing.Size(67, 15);
+            this.bookNum.Size = new System.Drawing.Size(53, 12);
             this.bookNum.TabIndex = 10;
             this.bookNum.Text = "库存数量";
             // 
             // modifyBookNumText
             // 
-            this.modifyBookNumText.Location = new System.Drawing.Point(116, 236);
-            this.modifyBookNumText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyBookNumText.Location = new System.Drawing.Point(87, 189);
             this.modifyBookNumText.Name = "modifyBookNumText";
-            this.modifyBookNumText.Size = new System.Drawing.Size(191, 25);
+            this.modifyBookNumText.Size = new System.Drawing.Size(144, 21);
             this.modifyBookNumText.TabIndex = 9;
             // 
             // modifyBtn
             // 
-            this.modifyBtn.Location = new System.Drawing.Point(116, 270);
-            this.modifyBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyBtn.Location = new System.Drawing.Point(87, 216);
             this.modifyBtn.Name = "modifyBtn";
-            this.modifyBtn.Size = new System.Drawing.Size(137, 45);
+            this.modifyBtn.Size = new System.Drawing.Size(103, 36);
             this.modifyBtn.TabIndex = 8;
             this.modifyBtn.Text = "修改";
             this.modifyBtn.UseVisualStyleBackColor = true;
@@ -361,73 +340,65 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(24, 190);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(18, 152);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 15);
+            this.label5.Size = new System.Drawing.Size(53, 12);
             this.label5.TabIndex = 7;
             this.label5.Text = "出版日期";
             // 
             // modifyTextDate
             // 
-            this.modifyTextDate.Location = new System.Drawing.Point(116, 186);
-            this.modifyTextDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextDate.Location = new System.Drawing.Point(87, 149);
             this.modifyTextDate.Name = "modifyTextDate";
-            this.modifyTextDate.Size = new System.Drawing.Size(191, 25);
+            this.modifyTextDate.Size = new System.Drawing.Size(144, 21);
             this.modifyTextDate.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(24, 134);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(18, 107);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 15);
+            this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 5;
             this.label6.Text = "书籍作者";
             // 
             // modifyTextAuthor
             // 
-            this.modifyTextAuthor.Location = new System.Drawing.Point(116, 130);
-            this.modifyTextAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextAuthor.Location = new System.Drawing.Point(87, 104);
             this.modifyTextAuthor.Name = "modifyTextAuthor";
-            this.modifyTextAuthor.Size = new System.Drawing.Size(191, 25);
+            this.modifyTextAuthor.Size = new System.Drawing.Size(144, 21);
             this.modifyTextAuthor.TabIndex = 4;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(24, 80);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(18, 64);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 15);
+            this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 3;
             this.label7.Text = "书籍名称";
             // 
             // modifyTextName
             // 
-            this.modifyTextName.Location = new System.Drawing.Point(116, 76);
-            this.modifyTextName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextName.Location = new System.Drawing.Point(87, 61);
             this.modifyTextName.Name = "modifyTextName";
-            this.modifyTextName.Size = new System.Drawing.Size(191, 25);
+            this.modifyTextName.Size = new System.Drawing.Size(144, 21);
             this.modifyTextName.TabIndex = 2;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(24, 29);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(18, 23);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 15);
+            this.label8.Size = new System.Drawing.Size(53, 12);
             this.label8.TabIndex = 1;
             this.label8.Text = "书籍ISBN";
             // 
             // modifyTextISBN
             // 
-            this.modifyTextISBN.Location = new System.Drawing.Point(116, 25);
-            this.modifyTextISBN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextISBN.Location = new System.Drawing.Point(87, 20);
             this.modifyTextISBN.Name = "modifyTextISBN";
-            this.modifyTextISBN.Size = new System.Drawing.Size(191, 25);
+            this.modifyTextISBN.Size = new System.Drawing.Size(144, 21);
             this.modifyTextISBN.TabIndex = 0;
             // 
             // FindPanel
@@ -441,18 +412,16 @@
             this.FindPanel.Controls.Add(this.findTextName);
             this.FindPanel.Controls.Add(this.label12);
             this.FindPanel.Controls.Add(this.findTextISBN);
-            this.FindPanel.Location = new System.Drawing.Point(591, 218);
-            this.FindPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FindPanel.Location = new System.Drawing.Point(443, 174);
             this.FindPanel.Name = "FindPanel";
-            this.FindPanel.Size = new System.Drawing.Size(388, 319);
+            this.FindPanel.Size = new System.Drawing.Size(291, 255);
             this.FindPanel.TabIndex = 10;
             // 
             // findBtn
             // 
-            this.findBtn.Location = new System.Drawing.Point(116, 246);
-            this.findBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findBtn.Location = new System.Drawing.Point(87, 197);
             this.findBtn.Name = "findBtn";
-            this.findBtn.Size = new System.Drawing.Size(137, 45);
+            this.findBtn.Size = new System.Drawing.Size(103, 36);
             this.findBtn.TabIndex = 8;
             this.findBtn.Text = "查询";
             this.findBtn.UseVisualStyleBackColor = true;
@@ -461,80 +430,83 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(24, 190);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(18, 152);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 15);
+            this.label9.Size = new System.Drawing.Size(53, 12);
             this.label9.TabIndex = 7;
             this.label9.Text = "出版日期";
             // 
             // findTextDate
             // 
-            this.findTextDate.Location = new System.Drawing.Point(116, 186);
-            this.findTextDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextDate.Location = new System.Drawing.Point(87, 149);
             this.findTextDate.Name = "findTextDate";
-            this.findTextDate.Size = new System.Drawing.Size(191, 25);
+            this.findTextDate.Size = new System.Drawing.Size(144, 21);
             this.findTextDate.TabIndex = 6;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(24, 134);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(18, 107);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 15);
+            this.label10.Size = new System.Drawing.Size(53, 12);
             this.label10.TabIndex = 5;
             this.label10.Text = "书籍作者";
             // 
             // findTextAuthor
             // 
-            this.findTextAuthor.Location = new System.Drawing.Point(116, 130);
-            this.findTextAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextAuthor.Location = new System.Drawing.Point(87, 104);
             this.findTextAuthor.Name = "findTextAuthor";
-            this.findTextAuthor.Size = new System.Drawing.Size(191, 25);
+            this.findTextAuthor.Size = new System.Drawing.Size(144, 21);
             this.findTextAuthor.TabIndex = 4;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(24, 80);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(18, 64);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 15);
+            this.label11.Size = new System.Drawing.Size(53, 12);
             this.label11.TabIndex = 3;
             this.label11.Text = "书籍名称";
             // 
             // findTextName
             // 
-            this.findTextName.Location = new System.Drawing.Point(116, 76);
-            this.findTextName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextName.Location = new System.Drawing.Point(87, 61);
             this.findTextName.Name = "findTextName";
-            this.findTextName.Size = new System.Drawing.Size(191, 25);
+            this.findTextName.Size = new System.Drawing.Size(144, 21);
             this.findTextName.TabIndex = 2;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(24, 29);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(18, 23);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 15);
+            this.label12.Size = new System.Drawing.Size(53, 12);
             this.label12.TabIndex = 1;
             this.label12.Text = "书籍ISBN";
             // 
             // findTextISBN
             // 
-            this.findTextISBN.Location = new System.Drawing.Point(116, 25);
-            this.findTextISBN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextISBN.Location = new System.Drawing.Point(87, 20);
             this.findTextISBN.Name = "findTextISBN";
-            this.findTextISBN.Size = new System.Drawing.Size(191, 25);
+            this.findTextISBN.Size = new System.Drawing.Size(144, 21);
             this.findTextISBN.TabIndex = 0;
+            // 
+            // MessageButton
+            // 
+            this.MessageButton.Location = new System.Drawing.Point(754, 12);
+            this.MessageButton.Name = "MessageButton";
+            this.MessageButton.Size = new System.Drawing.Size(34, 45);
+            this.MessageButton.TabIndex = 25;
+            this.MessageButton.Text = "留言";
+            this.MessageButton.UseVisualStyleBackColor = true;
+            this.MessageButton.Click += new System.EventHandler(this.MessageButton_Click);
             // 
             // AdminWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 562);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.MessageButton);
             this.Controls.Add(this.ModifyPanel);
             this.Controls.Add(this.FindPanel);
             this.Controls.Add(this.ShowButton);
@@ -544,7 +516,6 @@
             this.Controls.Add(this.ModifyButton);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.bookDataGrid);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AdminWindow";
             this.Text = "管理员页面";
             this.Load += new System.EventHandler(this.AdminWindow_Load);
@@ -605,5 +576,6 @@
         private System.Windows.Forms.TextBox bookNumTextBox;
         private System.Windows.Forms.TextBox modifyBookNumText;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button MessageButton;
     }
 }
