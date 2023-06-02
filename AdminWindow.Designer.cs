@@ -93,7 +93,7 @@
             this.Column5});
             this.bookDataGrid.Dock = System.Windows.Forms.DockStyle.Left;
             this.bookDataGrid.Location = new System.Drawing.Point(0, 0);
-            this.bookDataGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bookDataGrid.Margin = new System.Windows.Forms.Padding(4);
             this.bookDataGrid.MultiSelect = false;
             this.bookDataGrid.Name = "bookDataGrid";
             this.bookDataGrid.RowHeadersVisible = false;
@@ -137,7 +137,7 @@
             // AddButton
             // 
             this.AddButton.Location = new System.Drawing.Point(599, 15);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddButton.Margin = new System.Windows.Forms.Padding(4);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(165, 56);
             this.AddButton.TabIndex = 2;
@@ -148,7 +148,7 @@
             // ModifyButton
             // 
             this.ModifyButton.Location = new System.Drawing.Point(821, 15);
-            this.ModifyButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModifyButton.Margin = new System.Windows.Forms.Padding(4);
             this.ModifyButton.Name = "ModifyButton";
             this.ModifyButton.Size = new System.Drawing.Size(165, 56);
             this.ModifyButton.TabIndex = 3;
@@ -159,7 +159,7 @@
             // FindButton
             // 
             this.FindButton.Location = new System.Drawing.Point(599, 79);
-            this.FindButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FindButton.Margin = new System.Windows.Forms.Padding(4);
             this.FindButton.Name = "FindButton";
             this.FindButton.Size = new System.Drawing.Size(165, 56);
             this.FindButton.TabIndex = 4;
@@ -170,7 +170,7 @@
             // DeleteButton
             // 
             this.DeleteButton.Location = new System.Drawing.Point(821, 79);
-            this.DeleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteButton.Margin = new System.Windows.Forms.Padding(4);
             this.DeleteButton.Name = "DeleteButton";
             this.DeleteButton.Size = new System.Drawing.Size(165, 56);
             this.DeleteButton.TabIndex = 5;
@@ -192,7 +192,7 @@
             this.AddBookPanel.Controls.Add(this.label1);
             this.AddBookPanel.Controls.Add(this.ISBNtextBox);
             this.AddBookPanel.Location = new System.Drawing.Point(599, 229);
-            this.AddBookPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddBookPanel.Margin = new System.Windows.Forms.Padding(4);
             this.AddBookPanel.Name = "AddBookPanel";
             this.AddBookPanel.Size = new System.Drawing.Size(388, 319);
             this.AddBookPanel.TabIndex = 6;
@@ -210,7 +210,7 @@
             // bookNumTextBox
             // 
             this.bookNumTextBox.Location = new System.Drawing.Point(116, 232);
-            this.bookNumTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bookNumTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.bookNumTextBox.Name = "bookNumTextBox";
             this.bookNumTextBox.Size = new System.Drawing.Size(191, 25);
             this.bookNumTextBox.TabIndex = 11;
@@ -218,7 +218,7 @@
             // addBtn
             // 
             this.addBtn.Location = new System.Drawing.Point(116, 266);
-            this.addBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addBtn.Margin = new System.Windows.Forms.Padding(4);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(137, 45);
             this.addBtn.TabIndex = 8;
@@ -239,7 +239,7 @@
             // dateTextBox
             // 
             this.dateTextBox.Location = new System.Drawing.Point(116, 186);
-            this.dateTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.dateTextBox.Name = "dateTextBox";
             this.dateTextBox.Size = new System.Drawing.Size(191, 25);
             this.dateTextBox.TabIndex = 6;
@@ -257,7 +257,7 @@
             // authorTextBox
             // 
             this.authorTextBox.Location = new System.Drawing.Point(116, 130);
-            this.authorTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.authorTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.authorTextBox.Name = "authorTextBox";
             this.authorTextBox.Size = new System.Drawing.Size(191, 25);
             this.authorTextBox.TabIndex = 4;
@@ -275,7 +275,7 @@
             // nameTextBox
             // 
             this.nameTextBox.Location = new System.Drawing.Point(116, 76);
-            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(191, 25);
             this.nameTextBox.TabIndex = 2;
@@ -293,7 +293,7 @@
             // ISBNtextBox
             // 
             this.ISBNtextBox.Location = new System.Drawing.Point(116, 25);
-            this.ISBNtextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ISBNtextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ISBNtextBox.Name = "ISBNtextBox";
             this.ISBNtextBox.Size = new System.Drawing.Size(191, 25);
             this.ISBNtextBox.TabIndex = 0;
@@ -301,7 +301,7 @@
             // ShowButton
             // 
             this.ShowButton.Location = new System.Drawing.Point(821, 142);
-            this.ShowButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowButton.Margin = new System.Windows.Forms.Padding(4);
             this.ShowButton.Name = "ShowButton";
             this.ShowButton.Size = new System.Drawing.Size(165, 56);
             this.ShowButton.TabIndex = 7;
@@ -323,7 +323,7 @@
             this.ModifyPanel.Controls.Add(this.label8);
             this.ModifyPanel.Controls.Add(this.modifyTextISBN);
             this.ModifyPanel.Location = new System.Drawing.Point(595, 221);
-            this.ModifyPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModifyPanel.Margin = new System.Windows.Forms.Padding(4);
             this.ModifyPanel.Name = "ModifyPanel";
             this.ModifyPanel.Size = new System.Drawing.Size(388, 319);
             this.ModifyPanel.TabIndex = 9;
@@ -342,7 +342,7 @@
             // modifyBookNumText
             // 
             this.modifyBookNumText.Location = new System.Drawing.Point(116, 236);
-            this.modifyBookNumText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyBookNumText.Margin = new System.Windows.Forms.Padding(4);
             this.modifyBookNumText.Name = "modifyBookNumText";
             this.modifyBookNumText.Size = new System.Drawing.Size(191, 25);
             this.modifyBookNumText.TabIndex = 9;
@@ -350,7 +350,7 @@
             // modifyBtn
             // 
             this.modifyBtn.Location = new System.Drawing.Point(116, 270);
-            this.modifyBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyBtn.Margin = new System.Windows.Forms.Padding(4);
             this.modifyBtn.Name = "modifyBtn";
             this.modifyBtn.Size = new System.Drawing.Size(137, 45);
             this.modifyBtn.TabIndex = 8;
@@ -371,7 +371,7 @@
             // modifyTextDate
             // 
             this.modifyTextDate.Location = new System.Drawing.Point(116, 186);
-            this.modifyTextDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextDate.Margin = new System.Windows.Forms.Padding(4);
             this.modifyTextDate.Name = "modifyTextDate";
             this.modifyTextDate.Size = new System.Drawing.Size(191, 25);
             this.modifyTextDate.TabIndex = 6;
@@ -389,7 +389,7 @@
             // modifyTextAuthor
             // 
             this.modifyTextAuthor.Location = new System.Drawing.Point(116, 130);
-            this.modifyTextAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextAuthor.Margin = new System.Windows.Forms.Padding(4);
             this.modifyTextAuthor.Name = "modifyTextAuthor";
             this.modifyTextAuthor.Size = new System.Drawing.Size(191, 25);
             this.modifyTextAuthor.TabIndex = 4;
@@ -407,7 +407,7 @@
             // modifyTextName
             // 
             this.modifyTextName.Location = new System.Drawing.Point(116, 76);
-            this.modifyTextName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextName.Margin = new System.Windows.Forms.Padding(4);
             this.modifyTextName.Name = "modifyTextName";
             this.modifyTextName.Size = new System.Drawing.Size(191, 25);
             this.modifyTextName.TabIndex = 2;
@@ -425,7 +425,7 @@
             // modifyTextISBN
             // 
             this.modifyTextISBN.Location = new System.Drawing.Point(116, 25);
-            this.modifyTextISBN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.modifyTextISBN.Margin = new System.Windows.Forms.Padding(4);
             this.modifyTextISBN.Name = "modifyTextISBN";
             this.modifyTextISBN.Size = new System.Drawing.Size(191, 25);
             this.modifyTextISBN.TabIndex = 0;
@@ -442,7 +442,7 @@
             this.FindPanel.Controls.Add(this.label12);
             this.FindPanel.Controls.Add(this.findTextISBN);
             this.FindPanel.Location = new System.Drawing.Point(591, 218);
-            this.FindPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FindPanel.Margin = new System.Windows.Forms.Padding(4);
             this.FindPanel.Name = "FindPanel";
             this.FindPanel.Size = new System.Drawing.Size(388, 319);
             this.FindPanel.TabIndex = 10;
@@ -450,7 +450,7 @@
             // findBtn
             // 
             this.findBtn.Location = new System.Drawing.Point(116, 246);
-            this.findBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findBtn.Margin = new System.Windows.Forms.Padding(4);
             this.findBtn.Name = "findBtn";
             this.findBtn.Size = new System.Drawing.Size(137, 45);
             this.findBtn.TabIndex = 8;
@@ -471,7 +471,7 @@
             // findTextDate
             // 
             this.findTextDate.Location = new System.Drawing.Point(116, 186);
-            this.findTextDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextDate.Margin = new System.Windows.Forms.Padding(4);
             this.findTextDate.Name = "findTextDate";
             this.findTextDate.Size = new System.Drawing.Size(191, 25);
             this.findTextDate.TabIndex = 6;
@@ -489,7 +489,7 @@
             // findTextAuthor
             // 
             this.findTextAuthor.Location = new System.Drawing.Point(116, 130);
-            this.findTextAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextAuthor.Margin = new System.Windows.Forms.Padding(4);
             this.findTextAuthor.Name = "findTextAuthor";
             this.findTextAuthor.Size = new System.Drawing.Size(191, 25);
             this.findTextAuthor.TabIndex = 4;
@@ -507,7 +507,7 @@
             // findTextName
             // 
             this.findTextName.Location = new System.Drawing.Point(116, 76);
-            this.findTextName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextName.Margin = new System.Windows.Forms.Padding(4);
             this.findTextName.Name = "findTextName";
             this.findTextName.Size = new System.Drawing.Size(191, 25);
             this.findTextName.TabIndex = 2;
@@ -525,7 +525,7 @@
             // findTextISBN
             // 
             this.findTextISBN.Location = new System.Drawing.Point(116, 25);
-            this.findTextISBN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.findTextISBN.Margin = new System.Windows.Forms.Padding(4);
             this.findTextISBN.Name = "findTextISBN";
             this.findTextISBN.Size = new System.Drawing.Size(191, 25);
             this.findTextISBN.TabIndex = 0;
@@ -544,7 +544,7 @@
             this.Controls.Add(this.ModifyButton);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.bookDataGrid);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AdminWindow";
             this.Text = "管理员页面";
             this.Load += new System.EventHandler(this.AdminWindow_Load);

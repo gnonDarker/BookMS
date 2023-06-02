@@ -24,3 +24,4 @@ D:\0.C++\co_BookMS\BookMS\BookMS\obj\Debug\BookMS.csproj.GenerateResource.cache
 D:\0.C++\co_BookMS\BookMS\BookMS\obj\Debug\BookMS.csproj.CoreCompileInputs.cache
 D:\0.C++\co_BookMS\BookMS\BookMS\obj\Debug\BookMS.exe
 D:\0.C++\co_BookMS\BookMS\BookMS\obj\Debug\BookMS.pdb
+D:\0.C++\co_BookMS\BookMS\BookMS\obj\Debug\BookMS.Register.resources
