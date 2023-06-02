@@ -39,3 +39,4 @@ D:\DevelopmentTools\CodeWarehouse\BookMS_git\BookMS\obj\Debug\BookMS.exe
 D:\DevelopmentTools\CodeWarehouse\BookMS_git\BookMS\obj\Debug\BookMS.pdb
 D:\DevelopmentTools\CodeWarehouse\BookMS_git\BookMS\obj\Debug\BookMS.UserMsg.resources
 D:\DevelopmentTools\CodeWarehouse\BookMS_git\BookMS\obj\Debug\BookMS.AdminMsg.resources
+D:\DevelopmentTools\CodeWarehouse\BookMS_git\BookMS\obj\Debug\BookMS.Register.resources

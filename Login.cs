@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -86,33 +87,13 @@ namespace BookMS
             if (radioButtonUser.Checked) table = "t_user";
             else if (radioButtonAdmin.Checked) table = "t_admin";
             else MessageBox.Show("请先选择登录类型！");
-
-            Dao dao = new Dao();
-            string sql = $"insert into {table} values ('{textBox1.Text}', '{textBox2.Text}')";
-
-            if (dao.Excute(sql) > 0)
-            {
-                MessageBox.Show("注册成功！");
-            }
-            else
-            {
-                MessageBox.Show("注册失败！");
-            }
-            textBox1.Text = "";
-            textBox2.Text = "";
-
-            dao.DaoClose();
-        }
-        private void button2_Click(object sender, EventArgs e)
+            Register rg = new Register(table);
+            this.Hide();
+            rg.ShowDialog();
+            this.Show();
+        }        private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox2.Text != "")
-            {
-                TryRegister();
-            }
-            else
-            {
-                MessageBox.Show("输入有空项，请重新输入");
-            }
+            TryRegister();
         }
     }
 }

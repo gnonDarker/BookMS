@@ -127,7 +127,7 @@
             this.Controls.Add(this.MessageText);
             this.Controls.Add(this.MessageDataGrid);
             this.Name = "UserMsg";
-            this.Text = "UserMsg";
+            this.Text = "用户留言板";
             ((System.ComponentModel.ISupportInitialize)(this.MessageDataGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
